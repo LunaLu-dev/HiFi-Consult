@@ -1,0 +1,78 @@
+:root {
+    --main-theme-color-1: #e5414d;
+}
+
+*{
+    font-family: "Roboto", monospace;
+}
+
+.center{
+    margin-left: auto;
+    text-align: center;
+}
+
+.menu-div{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;;
+}
+
+.menu > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-theme-color-1);
+    color: #fff;
+}
+
+.menu-text-div{
+    width: min-content;
+    height: 40px;
+}
+
+.menu-text-div:hover{
+    background-color: #fff;
+    color: var(--main-theme-color-1);
+    margin: auto;
+    cursor: pointer;
+}
+
+.menu-text-div > h4{
+    margin: auto;
+}
+
+#contact-panel {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+#contact-panel > h4 {
+    text-align: left;
+    cursor: pointer;
+}
+
+.grid-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.grid-button{
+    display: inline-block;
+}
+
+.grid-button > img{
+    border-radius: 25%;
+    width: 80%;
+}
