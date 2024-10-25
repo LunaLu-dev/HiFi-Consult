@@ -20,11 +20,11 @@
 }
 
 .menu{
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: #000;
-    color: #fff;;
+    color: #fff;
 }
 
 .menu > div{
@@ -66,6 +66,7 @@
 .grid-buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    cursor: pointer;
 
 }
 .grid-button{
@@ -75,4 +76,42 @@
 .grid-button > img{
     border-radius: 25%;
     width: 80%;
+}
+
+#slideShow{
+    height: 100vh;
+}
+
+.footer{
+    width: 102%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    height: min-content;
+    display: grid;
+    background-color: #cfcfcf;
+    margin: auto;
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+}
+
+.footer-sections{
+    display: inline-block;
+}
+
+.footer-sections > h5{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
 }
